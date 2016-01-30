@@ -2,23 +2,41 @@
 <html>
     <head>
         <meta charset= "utf-8" />
-        <title>MoClickerHero</title>
+        <title>Morej Games v 1.0</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <h2>Mo+ ou Mo-</h2>
         <div id="affichageNumber">
           <button id="randomBtn">Lancer le dé !</button>
         </div>
         
         <div id="zonedetest">
           <label for="try">Saisir un nombre en 1 et 100 : </label>
-          <input type="number" id="tentative" placeholder="1 à 100" min="1" max="100" step="1">
+          <input type="number" id="tentative2" placeholder="1 à 100" min="1" max="100" step="1">
           <button id="tester">Tester</button>
         </div>
         
+        
         <div id="resultat"></div>
         
+        <h2>Jeu du SHIFUMo'</h2>
+        
+
+        <select id="shifumi">
+          <option>Pierre</option>
+          <option>Feuille</option>
+          <option>Ciseaux</option>
+        </select>
+        
+        <button id="goBtn">Go !</button>
+        <button id="resetScore">Reset</button>
+        <div id="affichageUser"></div>
+        <div id="affichageIa"></div>
+        <div id="affichageResultat"></div>
+        <div id="affichageScore"></div>
+
+
 
                 
         <script type="text/javascript" src="script.js"></script>
